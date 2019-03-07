@@ -44,7 +44,7 @@ public class Offset2DTest {
 		assertFalse(offset2D.equalsTo(10, -4));
 		assertFalse(offset2D.equalsTo(0, 1));
 		
-		// Metoda yFlipped vytváří nový Offset2D se obrácenou y souřadnicí.
+		// Metoda yFlipped vytváří nový lord.thedrake.Offset2D se obrácenou y souřadnicí.
 		assertTrue(offset2D.yFlipped().equalsTo(10, 5));
 		assertTrue(offset2D.yFlipped().yFlipped().equalsTo(10, -5));
 		assertTrue(offset2D.yFlipped() != offset2D);
